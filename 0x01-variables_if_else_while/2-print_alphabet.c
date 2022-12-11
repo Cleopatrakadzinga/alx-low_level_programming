@@ -5,14 +5,16 @@
  * @void: Null value
  *
  * Description: Print alphabet lowercase
- * Return: Zero value
+ * Return: Zero value 
  */
 
 int main(void)
 {
-		char c;
-			for (c = 'a'; c <= 'z'; c++)
-						putchar(c);
-				putchar('\n');
-					return (0);
+
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	putchar('\n');
+	return (0);
 }
