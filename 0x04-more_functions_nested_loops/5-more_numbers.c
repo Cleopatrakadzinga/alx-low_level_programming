@@ -2,9 +2,7 @@
 
 /**
  * more_number - print more numbers
- *
- * Description: Prints the numbers in _putchar
- *
+ * Description: Prints the numbers with _putchar
  * Return: void
  */
 
@@ -19,10 +17,10 @@ void more_numbers(void)
 			tens = number / 10;
 			units = number % 10;
 			if (number > 9)
-				_putchar(tens + '0'');
+				_putchar(tens + '0');
 
 			_putchar(units + '0');
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
