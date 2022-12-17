@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - entry point
+ * more_number - print more numbers
  *
  * Description: Prints the numbers in _putchar
  *
