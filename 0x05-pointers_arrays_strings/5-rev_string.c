@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * rev_string - Reverse a string 
+ * rev_string - Reverse a string
  * @s: Input string
- * Return: String in revere
- **/
+ * Return: String in reverse
+ */
 
 void rev_string(char *s)
 {
