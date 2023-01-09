@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	change = 0;
 
-	if (agrc == 2)
+	if (argc == 2)
 	{
 		num = atoi(argv[1]);
 		if (num > 0)
